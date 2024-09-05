@@ -4,6 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import entites.Products;
+
 class Product {
 
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ class Product {
         System.out.print("Name: ");
         String name = sc.nextLine();
         System.out.print("Price: ");
-         double price = sc.nextDouble();
+        double price = sc.nextDouble();
 //        System.out.print("Quantity in Stock: ");
 //        int quantity = sc.nextInt();
 
@@ -33,7 +34,7 @@ class Product {
 
         System.out.println();
         System.out.println("Enter the number of product to be added in stock: ");
-       int quantity = sc.nextInt();
+        int quantity = sc.nextInt();
         product.addProducts(quantity);
 
         System.out.println();
@@ -42,7 +43,8 @@ class Product {
         System.out.println();
         System.out.println("Enter the number of product to be removed in stock: ");
         quantity = sc.nextInt();
-        product.removeProducts(quantity);;
+        product.removeProducts(quantity);
+        ;
 
         System.out.println();
         System.out.println("Removed data: " + product.toString());
