@@ -8,6 +8,8 @@ public class Lists {
     public static void main(String[] args) {
 
         List<String> list = new ArrayList<>();
+
+        // Adicionando informações a lista
         list.add("Maria");
         list.add("Alex");
         list.add("Bob");
